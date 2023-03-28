@@ -217,7 +217,7 @@ export class CommandUtility implements ExecutorProps {
                 .getUiController()
                 .openModalView(modal, { triggerId }, this.context.getSender());
         } else {
-            console.log("Inavlid Trigger ID !");
+            console.log("invalid Trigger ID !");
         }
     }
 
